@@ -18,16 +18,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-          child: Text(
-            "This app is in developping mode",
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              color: Colors.blueGrey,
-              letterSpacing: 2,
-              wordSpacing: 5
-            ),)
-      ),
+          child: Image.asset("images/hqdefault.jpg")),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red,
         child: Icon(Icons.assistant_navigation),

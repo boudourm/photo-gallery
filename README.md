@@ -11,7 +11,7 @@ Each commit represents a task from the guided project.
 - Task 4: Working With Rows and Columns
 - Task 5: Scrollable lists
 - Task 6: Routing in flutter
-  - Task 7: Project deployment tips
+- Task 7: Project deployment tips
 
 
 This project is a starting point for a Flutter application.

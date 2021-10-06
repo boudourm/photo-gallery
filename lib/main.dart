@@ -17,8 +17,21 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[400],
         centerTitle: true,
       ),
-      body: Center(
-          child: Image.asset("images/hqdefault.jpg")),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          Expanded(
+              child: Image.asset(
+                  "images/hqdefault.jpg")
+          ),
+          Text("This is a photo gallery mobile app"),
+          ElevatedButton.icon(
+              onPressed: (){print("add");},
+              label: Text("add"),
+              icon: Icon(Icons.assistant)
+          )
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red,
         child: Icon(Icons.assistant_navigation),

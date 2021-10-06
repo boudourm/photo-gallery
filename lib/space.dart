@@ -14,7 +14,29 @@ class Space extends StatelessWidget {
       body: Card(
         child: Column(
           children: [
-            Image.asset("images/hqdefault.jpg")
+            Image.asset("images/hqdefault.jpg"),
+            Text("This is a Deep sea anglerfish",
+              style: TextStyle(
+                fontSize: 15,
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                ElevatedButton.icon(
+                    onPressed: (){
+                      Navigator.pop(context);
+                    },
+                    label: Text("Exit"),
+                    icon: Icon(Icons.exit_to_app)),
+                ElevatedButton.icon(
+                    onPressed: (){
+                      print("Download in progress ...");
+                    },
+                    label: Text("Download"),
+                    icon: Icon(Icons.download))
+              ],
+            )
           ],
         ),
       )

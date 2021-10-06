@@ -39,6 +39,158 @@ class Home extends StatelessWidget {
                       icon: Icon(Icons.open_in_browser))
                 ],
               ),
+            ),
+            Card(
+              elevation: 50,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Image.asset("images/hqdefault.jpg"),
+                  ),
+                  Text("This is a photo gallery mobile app"),
+                  TextButton.icon(
+                      onPressed: (){
+                        print("TextButtin pressed");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Space()));
+                      },
+                      label: Text("View"),
+                      icon: Icon(Icons.open_in_browser))
+                ],
+              ),
+            ),
+            Card(
+              elevation: 50,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Image.asset("images/hqdefault.jpg"),
+                  ),
+                  Text("This is a photo gallery mobile app"),
+                  TextButton.icon(
+                      onPressed: (){
+                        print("TextButtin pressed");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Space()));
+                      },
+                      label: Text("View"),
+                      icon: Icon(Icons.open_in_browser))
+                ],
+              ),
+            ),
+            Card(
+              elevation: 50,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Image.asset("images/hqdefault.jpg"),
+                  ),
+                  Text("This is a photo gallery mobile app"),
+                  TextButton.icon(
+                      onPressed: (){
+                        print("TextButtin pressed");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Space()));
+                      },
+                      label: Text("View"),
+                      icon: Icon(Icons.open_in_browser))
+                ],
+              ),
+            ),
+            Card(
+              elevation: 50,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Image.asset("images/hqdefault.jpg"),
+                  ),
+                  Text("This is a photo gallery mobile app"),
+                  TextButton.icon(
+                      onPressed: (){
+                        print("TextButtin pressed");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Space()));
+                      },
+                      label: Text("View"),
+                      icon: Icon(Icons.open_in_browser))
+                ],
+              ),
+            ),
+            Card(
+              elevation: 50,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Image.asset("images/hqdefault.jpg"),
+                  ),
+                  Text("This is a photo gallery mobile app"),
+                  TextButton.icon(
+                      onPressed: (){
+                        print("TextButtin pressed");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Space()));
+                      },
+                      label: Text("View"),
+                      icon: Icon(Icons.open_in_browser))
+                ],
+              ),
+            ),
+            Card(
+              elevation: 50,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Image.asset("images/hqdefault.jpg"),
+                  ),
+                  Text("This is a photo gallery mobile app"),
+                  TextButton.icon(
+                      onPressed: (){
+                        print("TextButtin pressed");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Space()));
+                      },
+                      label: Text("View"),
+                      icon: Icon(Icons.open_in_browser))
+                ],
+              ),
+            ),
+            Card(
+              elevation: 50,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Image.asset("images/hqdefault.jpg"),
+                  ),
+                  Text("This is a photo gallery mobile app"),
+                  TextButton.icon(
+                      onPressed: (){
+                        print("TextButtin pressed");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Space()));
+                      },
+                      label: Text("View"),
+                      icon: Icon(Icons.open_in_browser))
+                ],
+              ),
+            ),
+            Card(
+              elevation: 50,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Image.asset("images/hqdefault.jpg"),
+                  ),
+                  Text("This is a photo gallery mobile app"),
+                  TextButton.icon(
+                      onPressed: (){
+                        print("TextButtin pressed");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Space()));
+                      },
+                      label: Text("View"),
+                      icon: Icon(Icons.open_in_browser))
+                ],
+              ),
             )
           ]),
       floatingActionButton: FloatingActionButton(
